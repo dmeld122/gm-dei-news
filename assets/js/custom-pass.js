@@ -1,0 +1,1 @@
+$(function(){   var pass = 'GMDEI2024!',   $pass_btn = $('[name=pass_btn]'),   $pass_field = $('[name=pass_field]');   $pass_btn.click(function(e) {   if($pass_field.val() == pass) nav.next();   else alert('Incorrect password');   });});
